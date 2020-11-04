@@ -4,6 +4,8 @@ import Tour from "../Tour/Tour";
 import { tourData } from "../tourData";
 export default class TourList extends Component {
   state = {
+    // Tour data to display
+    // TODO: Change this to come from an API
     tours: tourData,
   };
   removeTour = (id) => {
